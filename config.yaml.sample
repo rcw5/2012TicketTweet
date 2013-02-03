@@ -1,0 +1,13 @@
+sleep_time: 60
+fast_sleep_time: 30
+fast_sleep_trigger: 2 #If the previous n goes have found new seats then switch to the fast_sleep_time between refreshes
+slow_sleep_trigger: 10 #Number of collections of 0 new tix before switching from fast_sleep_time back to sleep_time
+
+log_dest: STDOUT  #STDOUT for screen, anything else for file
+log_name: tweety_12.log
+send_tweets: false
+send_dms: true
+consumer_key: your_key
+consumer_secret: your_secret
+oauth_token: your_oauth_token
+oauth_token_secret: your_oauth_token_secret
